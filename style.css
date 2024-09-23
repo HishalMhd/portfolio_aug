@@ -1,0 +1,480 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background-color: bisque;
+}
+
+
+
+#container{
+    width: 100%;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+    
+}
+
+
+.links{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 0;
+    
+}
+
+
+
+.word{
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 150px;
+    margin-top: 250px;
+    font-size: 80px;
+}
+
+.word2{
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 300px;
+    margin-top: -40px;
+    font-size: 80px;
+    color: brown;
+}
+
+.cvdata{
+    margin-left: 150px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: -10px;
+}
+
+
+.cvd{
+    text-decoration: none;
+    border: solid;
+    padding: 10px;
+    line-height: 4;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: "Chakra Petch", sans-serif;
+    
+    
+
+
+}
+
+.man{
+
+    margin-left: 1100px;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+    height: 500px;
+    z-index: 1;
+    position: absolute;
+    background: transparent;
+    transition: left 2s;
+}
+
+
+.star{
+
+    margin-left:971px;
+    margin-top: 200px;
+    height: 450px;
+    width: 440px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: top 1s;
+
+
+
+}
+
+.image-content{
+
+
+    margin-top: -30px;
+}
+
+
+.links:hover{
+    color: hsl(15, 73%, 61%);
+    text-decoration: underline;
+}
+
+.image-content:hover #mann{
+    left: 2%;
+
+}
+
+.image-content:hover #starr{
+    top: 2%
+}
+
+
+#sec{
+
+    border: solid 0;
+    margin-top: 300px;
+    margin-left: 45%;
+    font-size: 35px;
+}
+
+
+#int{
+
+    margin-top: -60px;
+    margin-left: -105px;
+    color: brown;
+}
+
+
+
+.img{
+    border: solid;
+    margin-left: -100%;
+}
+
+#pic{
+    height: 300px;
+    margin-bottom: 0px;
+
+}
+
+.para{
+    margin-left: 100px;
+}
+
+
+.div1{
+    border: solid 0;
+    height: 99%;
+    width: 400px;
+
+}
+
+.div2{
+    border: solid  0;
+    height: 99%;
+    width: 99%;
+    margin: 5px 5px 5px 15px;
+
+    
+}
+
+.maindiv{
+    border: solid 0;
+    margin-left: -75%;
+    margin-top: 30px;
+    height: 310px;
+    width: 165%;
+    display: flex ;
+    justify-content: left;
+    
+}
+
+#image{
+
+    height: 100%;
+    width: 100%;
+    margin-top: -4px;
+    
+
+}
+
+.print{
+
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+}
+
+#abt{
+
+    font-family: "Roboto Mono", monospace;
+}
+
+#int{
+
+    font-family: "Roboto Mono", monospace;
+}
+
+#ski{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+#ski2{
+    font-family: "Roboto Mono", monospace;
+    color: brown ;
+    text-align: center;
+    
+}
+
+
+.skilldiv{
+
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.datas{
+
+
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 30px;
+    
+    
+    
+
+
+
+
+
+
+
+}
+
+.sub1{
+
+    
+    display: grid;
+    row-gap: 3rem;
+    font-family: "Roboto Mono";
+ 
+
+    
+}
+
+.sub2{
+    
+
+    
+    
+
+
+}
+
+#mane{
+
+    height: 100%;
+    width: 99%;
+    background: transparent;
+
+
+}
+
+.pro1{
+    height: 50px;
+    width: 750px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.con{
+    display: grid;
+    grid-template-columns: 15fr 1fr;
+    margin-left: 10px;
+    row-gap: 10rem;
+    font-family: "Roboto Mono";
+}
+
+.he1{
+    border: solid black;
+    width: 98%;
+    height: 11px;
+    margin-left: 3px;
+    border-radius: 10px;
+    background-color: black;
+    
+    
+    
+}
+
+.he2{
+    border: solid brown;
+    width: 93%;
+    height: 10px;
+    margin-top: -2px;
+    border-radius: 10px;
+    margin-left: -2px;
+    background-color: brown;
+    
+    
+}
+
+.he3{
+    border: solid black;
+    width: 98%;
+    height: 11px;
+    margin-left: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.he4{
+    border: solid brown;
+    width: 85%;
+    height: 10px;
+    margin-top: -2px;
+    border-radius: 10px;
+    margin-left: -2px;
+    background-color: brown;
+}
+
+
+.he5{
+    border: solid black;
+    width: 98%;
+    height: 11px;
+    margin-left: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.he6{
+    border: solid brown;
+    width: 88%;
+    height: 10px;
+    margin-top: -2px;
+    border-radius: 10px;
+    margin-left: -2px;
+    background-color: brown;
+}
+
+.he7{
+    border: solid black;
+    width: 98%;
+    height: 11px;
+    margin-left: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.he8{
+    border: solid brown;
+    width: 78%;
+    height: 10px;
+    margin-top: -2px;
+    border-radius: 10px;
+    margin-left: -2px;
+    background-color: brown;
+}
+
+
+
+.icons{
+    
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+.ii{
+    border: solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+    background-color: rgba(217, 185, 21, 0.853);
+    background: transparent;
+    
+}
+
+
+.ii:hover{
+    background-image: linear-gradient(red,brown);
+    animation: rotate 2s;
+    
+}
+
+.brand{
+    color: black;
+  font-size: 25px;
+    border-radius: 50%;
+    
+}
+
+.brand:hover{
+    color: white;
+}
+
+
+
+.footer{
+    border: solid;
+    height: 20px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+
+
+#copyright{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#gi{
+    float: right;
+    text-decoration: none;
+
+}
+
+
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
